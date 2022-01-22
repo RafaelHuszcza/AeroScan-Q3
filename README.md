@@ -1,70 +1,68 @@
-# Getting Started with Create React App
+# Questão 3 AeroScan
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![GitHub repo size](https://img.shields.io/github/repo-size/RafaelHuszcza/AeroScan-Q3?style=for-the-badge)
 
-## Available Scripts
 
-In the project directory, you can run:
+![GitHub language count](https://img.shields.io/github/languages/count/RafaelHuszcza/AeroScan-Q3?style=for-the-badge)
 
-### `yarn start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `yarn test`
+>Problema apresentado:
+Questão 3 – ReactJS
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+O YouTube recebeu um alerta de que seu contador de likes e dislikes estava com
+um problema: uma pessoa estava conseguindo gostar e não gostar da mesma
+publicação.
+Sendo assim, você foi contratado para solucionar este problema. Crie uma
+aplicação React com dois botões (Gostei e Não Gostei) e faça com que seu programa
+atenda aos seguintes requisitos:
 
-### `yarn build`
+#### Tarefas
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- [x] Se a pessoa clicar em “Gostei”, ele deve ficar com a borda e as letras verdes;
+- [x] Se a pessoa clicar em “Não Gostei”, ele deve ficar com a borda e as letras
+vermelhas;
+- [x] Lembre-se que o problema deve ser solucionado, então quando o botão “Gostei”
+for clicado, o botão “Não Gostei” deve voltar ao normal e vice-versa;
+- [x] Faça o controle da estilização utilizando estados.
+## 💻 Tecnologias
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- [React.js](https://pt-br.reactjs.org/): que permite a criação de páginas e componentes que podem ser reutilizados, além de diversas outras funcionalidades
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🚀 Instalando o Projeto
 
-### `yarn eject`
+Para instalar o Projeto, siga estas etapas:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```bash
+# No seu terminal, clone o projeto
+$ git clone https://github.com/RafaelHuszcza/AeroScan-Q3.git
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# Entre na pasta...
+$ cd AeroScan-Q3
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+# Instale as dependências
+$ yarn install
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## ☕ Usando o Projeto
 
-## Learn More
+Para usar o Projeto, siga estas etapas:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+# No seu terminal, dentro de 'AeroScan-Q3/', inicie o projeto executando
+$ yarn start
+```
+## 📫 Contribuindo para o Projeto
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+> Sua contribuição é muito bem vinda! 😀
 
-### Code Splitting
+Para contribuir com o Projeto, siga estas etapas:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+1. Bifurque este repositório.
+2. Crie um branch: `git checkout -b <nome_branch>`.
+3. Faça suas alterações e confirme-as: `git commit -m '<mensagem_commit>'`
+4. Envie para o branch original: `git push origin AeroScan-Q3 / <local>`
+5. Crie a solicitação de pull.
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Como alternativa, consulte a documentação do GitHub em [como criar uma solicitação pull](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).
