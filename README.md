@@ -5,6 +5,7 @@
 
 ![GitHub language count](https://img.shields.io/github/languages/count/RafaelHuszcza/AeroScan-Q3?style=for-the-badge)
 
+![Cover MetaNews](https://user-images.githubusercontent.com/62501031/150653615-1d6efaab-8fc1-46d2-a3fc-0ba23736db33.gif)
 
 
 
